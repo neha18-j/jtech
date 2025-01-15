@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JTechPack/Product_Page</title>
+    <!--Fonts-Links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <!--StyleSheet-Links-->
+    <link rel="stylesheet" href="style.css">
+    <!--Media query links-->
+    <link rel="stylesheet" href="mediaquery.css">
+    <!--Font Awesome Links-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Fade Link-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <section class="header-contact">
+        <div class="head-contact">
+            <div class="whatsapp">
+                <i class="fa-brands fa-whatsapp" style="color:rgb(23, 190, 103)"></i>
+                <h4>+91-8048361254</h4>
+            </div>
+            <div class="phone-number">
+                <i class="fa-solid fa-phone" style="color:rgb(0, 222, 132)"></i>
+                <h4>+91-8048361254</h4>
+            </div>
+            <div class="email">
+                <i class="fa-regular fa-envelope" style="color:rgb(255, 79, 36)"></i>
+                <h4>jtechpack2000@gmail.com</h4>
+            </div>
+            <div class="follow-us">
+                <h4>Follow Us In: </h4>
+                <a href="" target="_blank"><i class="fa-brands fa-youtube" style="color:red"></i></a>
+                <a href="" target="_blank"><i class="fa-brands fa-instagram" style="color:rgb(206, 18, 147)"></i></a>
+                <a href="" target="_blank"><i class="fa-brands fa-facebook" style="color:rgb(0, 161, 242)"></i></a>
+            </div>
+        </div>
+    </section>
+    <section class="nav-section" style="position: sticky;top:0;width:100%;z-index:999;">
+        <div class="nav-container">
+            <nav class="nav-bar">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <i class="fa-solid fa-boxes-stacked"></i>
+                    </div>
+                    <div class="logo-text">
+                        <i class="fa-solid fa-j "></i>
+                        <div class="logo-text-02">
+                            <h1 style="color:#d0efff">TECH</h1>
+                            <hr>
+                            <h1 style="color:#d0efff">PACK</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-bar-links">
+                    <ul>
+                        <li><a href="Home.html" >Home</a></li>
+                        <li><a href="About_Us.html">About Us</a></li>
+                        <li><a href="Products.html" >Our Products</a></li>
+                        <li><a href="Industries.html" >Indusries</a></li>
+                        <li style="padding-right: 20px;"><a href="Contact.html" >Contact</a></li>
+                    </ul>
+                </div>
+                <div class="menu-toggle" onclick="sideNavbarShow()" style="color:white;padding: 10px;font-size: 30px;">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!--side navbar--->
+    <section class="side-nav">
+        <div class="side-navbar">
+            <p style="text-align: right;" onclick="sideNavbarClose()">
+                <i class="fa-solid fa-xmark"></i>
+            </p>
+            <div class="side-navbar-links">
+                <p class="side-navbar-link"><a href="Home.html" >Home</a></p>
+                <p class="side-navbar-link"><a href="About_Us.html" >About Us</a></p>
+                <p class="side-navbar-link"><a href="Products.html" >Our Products</a></p>
+                <p class="side-navbar-link"><a href="Industries.html" >Industries</a></p>
+                <p class="side-navbar-link"><a href="contact.html" >Contacts</a></p>
+            </div>
+        </div>
+    </section>
+    <!-- head of products list-->
+    <section class="products-lists">
+        <h2>Products We Serve</h2>
+        <div class="product-head">
+            <div class="product-head-list">
+                <ol>
+                    <li  class="a" style="background-color: #1167b1; color: white;"> Corrugated Boxes <i class="fa-sharp fa-solid fa-arrow-right"></i></li>
+                    <li> Heavy Duty Corrugated Boxes</li>
+                    <li> Industrial Corrugated Boxes</li>
+                    <li> Kraft Corrugated Boxes</li>
+                    <li> Plain Corrugated Boxes</li>
+                    <li> Custom Corrugated Boxes</li>
+                    <li  class="a" style="background-color: #1167b1; color: white;"> Packaging Boxes <i class="fa-sharp fa-solid fa-arrow-right"></i></li>
+                    <li> Heavy Duty Packaging Boxes</li>
+                    <li> Industrial Packaging Boxes</li>
+                    <li> Plain Packaging Boxes</li>
+                    <li  class="a" style="background-color: #1167b1; color: white;"> Playwood Boxes <i class="fa-sharp fa-solid fa-arrow-right"></i></li>
+                    <li> Heavy Duty Playwood Boxes</li>
+                    <li> Teak Playwood Boxes</li>
+                    <li  class="a" style="background-color: #1167b1; color: white;"> Cardboard Boxes <i class="fa-sharp fa-solid fa-arrow-right"></i></li>
+                    <li> Industrial CardBoard Boxes</li>
+                    <li> Plain CardBoard Boxes</li>
+                    <li  class="a" style="background-color: #1167b1; color: white;"> Playwood Pallet Boxes <i class="fa-sharp fa-solid fa-arrow-right"></i></li>
+                    <li> Commercial Playwood Pallet</li>
+                    <li> Teak Playwood Pallet</li>
+                    <li  class="a" style="background-color: #1167b1; color: white;"> Duplex Boxes <i class="fa-sharp fa-solid fa-arrow-right"></i></li>
+                    <li> Duplex Carton Boxes</li>
+                    <li> Coloured Corrugated Boxes</li>
+                    <li> Single Ply Corrugated Boxes</li>
+                    <li> Single Coloured Corrugated Boxes</li>
+                    <li> Heavy Duty Corrugated Boxes</li>
+                    <li  class="a" style="background-color: #1167b1; color: white;">Custom Design Products <i class="fa-sharp fa-solid fa-arrow-right"></i> </li>
+                    <li> Gift Packing Boxes</li>
+                    <li> Paper Packing Boxes</li>
+                    <li> Corrugated Roll</li>
+                    <li> Small Boxes</li>
+                    <li  class="a" style="background-color: #1167b1; color: white;">Newly Launched Products <i class="fa-sharp fa-solid fa-arrow-right"></i></li>
+                    <li> Luxury Gift Boxes</li>
+                    <li> Wood Cutting Dies</li>
+                    <li> Cardboard Chick Packaging Boxes</li>
+                    <li> Corrugated Chick Boxes</li>
+                    <li> Partition Corrugated Boxes</li>
+                    <li> Printed Corrugated Boxes</li>
+                    <li> Corrugated Jar Packaging Boxes</li>
+                    <li> Sticker Laser Cutting Dies</li>
+                    <li> Self Lock Craft Packaging Boxes</li>
+                    <li> Black Shipping Boxes</li>
+                    <li> Black Mail Boxes</li>
+                    <li> Kraft Paper Ply Plain Corrugated Boxes</li>
+                    <li> Steel Rule Dies For Packaging</li>
+                    <li> Wooden Cutting Dies</li>
+                    <li> Fresh Fruit And Vegetable Corrugated Packaging Carton Boxes</li>
+                    <li  class="a" style="background-color: #1167b1; color: white;"> More Than 45++ Products </li>   
+                </ol>
+            </div>
+        </div>
+        <!--main types of Products-->
+        <section class="corrugated-box-types-section">
+            <div class="corrugated-box-container">
+                <h1>Corrugated Boxes</h1>
+                <div class="corrugated-box-img-container">
+                    <div>
+                        <img src="images/product-page-heavy-duty-corrugated-box-01.jpg">
+                        <h3>Heavy Duty <br> Corrugated Boxes</h3>
+                    </div>
+                    <div>
+                        <img src="images/product-page-industrial-corrugated-box-01.jpg">
+                        <h3>Industrial <br> Corrugated Boxes</h3>
+                    </div>
+                    <div>
+                        <img src="images/product-page-kraft-corrugated-box-01.jpg">
+                        <h3>Kraft <br> Corrugated Boxes</h3>
+                    </div>
+                    <div>
+                        <img src="images/product-page-plain-corrugated-box-01.jpg">
+                        <h3>Plain <br> Corrugated Boxes</h3>
+                    </div>
+                    <div>
+                        <img src="images/product-page-custom-corrugated-box-01.jpg">
+                        <h3>Custom <br> Corrugated Boxes</h3>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <section class="packaging-box-types-section">
+            <div class="packaging-box-container">
+                <h1>Packaging Boxes</h1>
+                <div class="packaging-box-img-container">
+                    <div>
+                        <img src="images/product-page-heavy-duty-packaging-box-01.jpg">
+                        <h3>Heavy Duty <br> Packaging Boxes</h3>
+                    </div>
+                    <div>
+                        <img src="images/product-page-industrial-packaging-box-01.jpg">
+                        <h3>Industrial <br> Packaging Boxes</h3>
+                    </div>
+                    <div>
+                        <img src="images/product-page-plain-packaging-box-01.jpg">
+                        <h3>Plain <br> Packaging Boxes</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class=" two-box-container">
+            <section class="cardboard-box-types-section">
+                <div class="cardboard-box-container">
+                    <h1>Cardboard Boxes</h1>
+                    <div class="cardboard-box-img-container">
+                        <div>
+                            <img src="images/product-page-industrial-cardBoard-box-01.jpg">
+                            <h3>Industrial <br> CardBoard Boxes</h3>
+                        </div>
+                        <div>
+                            <img src="images/product-page-plain-cardBoard-box-01.jpg">
+                            <h3>Plain <br> CardBoard Boxes</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="playwood-pallet-box-types-section">
+                <div class="playwood-pallet-box-container">
+                    <h1>Playwood Pallet </h1>
+                    <div class="playwood-pallet-box-img-container">
+                        <div>
+                            <img src="images/product-page-commercial-pallet-01.jpg">
+                            <h3>Commercial <br> Playwood Pallet</h3>
+                        </div>
+                        <div>
+                            <img src="images/product-page-teak-playwood-pallet-01.jpg">
+                            <h3>Teak <br> Playwood Pallet</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section class="two-box-container">
+            <section class="playwood-box-types-section">
+                <div class="playwood-box-container">
+                    <h1>Playwood Boxes</h1>
+                    <div class="playwood-box-img-container">
+                        <div>
+                            <img src="images/product-page-normal-playwood-box-01.jpg">
+                            <h3>Normal Playwood <br>Boxes</h3>
+                        </div>
+                        <div>
+                            <img src="images/product-page-heavy-duty-playwood-box-01.jpg">
+                            <h3>Heavy Duty <br> Playwood Boxes</h3>
+                        </div>
+                        <div>
+                            <img src="images/product-page-teak-playwood-box-01.jpg">
+                            <h3>Teak <br> Playwood Boxes</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="duplex-box-types-section">
+                <div class="duplex-box-container">
+                    <h1>Duplex Boxes </h1>
+                    <div class="duplex-box-img-container">
+                        <div>
+                            <img src="images/duplexBox.webp">
+                            <h3>Duplex<br> Boxes</h3>
+                        </div>
+                        <div>
+                            <img src="images/product-page-duplex-carton-corrugated-box-01.jpg">
+                            <h3>Duplex Carton<br> Boxes</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>   
+        </section>
+
+         <!--new types of Products-->
+         <section class="new-box-types-section">
+                <div class="new-box-container">
+                    <h1>Custom Designed Products </h1>
+                    <div class="new-box-img-container">
+                        <div>
+                            <img src="images/product-page-coloured-corrugated-box-01.jpg">
+                        <h3>Coloured <br> Corrugated Box</h3>
+                        </div>
+                        <div>
+                            <img src="images/product-page-single-ply-corrugated-box-01.jpg">
+                        <h3>Single Ply <br>Corrugated Box</h3>
+                        </div>
+                        <div>
+                            <img src="images/product-page-single-coloured-corrugated-box.jpg">
+                        <h3>Single Coloured <br> Corrugated Box</h3>
+                        </div>
+                        <div>
+                            <img src="images/product-page-corrugated-box-01.jpg">
+                        <h3>Heavy Duty <br>Corrugated Box</h3>
+                        </div>
+                        <div>
+                            <img src="images/product-page-gift-packing-box-1.jpg">
+                        <h3>Gift Packing<br> Box</h3>
+                        </div>
+                        <div>
+                            <img src="images/product-page-paper-packing-box-1.jpg">
+                            <h3>Paper Packing<br> Box</h3>
+                        </div>
+                        <div>
+                            <img src="images/corrugated-carton-box.jpg">
+                        <h3> Corrugated Carton <br> Box</h3>
+                        </div>
+                        <div>
+                            <img src="images/product-page-packaging-box.jpg">
+                            <h3>Packaging <br> Box</h3>
+                        </div>
+                        <div>
+                            <img src="images/product-page-corrugated-roll.jpg">
+                            <h3>Corrugated <br>  Roll</h3>
+                        </div>
+                        <div>
+                            <img src="images/product--page-small-box.jpg">
+                        <h3>Small <br>  Box</h3>
+                        </div>
+                    </div>
+                </div>
+         </section>
+
+         <section class="newly-launched-box-types-section">
+            <div class="newly-launched-box-container">
+                <h1>Newly Launched Products </h1>
+                <div class="newly-launched-box-img-container">
+                    <div>
+                        <img src="images/wood_cutting_dies.jpg">
+                    <h3> Wood Cutting <br> Dies</h3>
+                    </div>
+                    <div>
+                        <img src="images/cardboard_chick_box.webp">
+                    <h3>Cardboard Chick<br> Packaging Boxes</h3>
+                    </div>
+                    <div>
+                        <img src="images/corrugated-chick-box.jpg">
+                    <h3>Corrugated Chick<br>  Boxes</h3>
+                    </div>
+                    <div>
+                        <img src="images/steel-rule-dies.jpg">
+                    <h3> Steel Rule Dies<br>  For Packaging </h3>
+                    </div>
+                    <div>
+                        <img src="images/steel-rule-dies-02.jpg">
+                    <h3> Steel Rule Dies<br>  For Packaging </h3>
+                    </div>
+                    <div>
+                        <img src="images/partition-corrugated-box.jpg">
+                    <h3>Partition Corrugated <br> Boxes</h3>
+                    </div>
+                    <div>
+                        <img src="images/printed-corrugated-box.jpg">
+                        <h3>Printed Corrugated <br> Boxes</h3>
+                    </div>
+                    <div>
+                        <img src="images/luxury-gift-box.jpg">
+                    <h3> Luxury Gift<br>  Boxes</h3>
+                    </div>
+                    <div>
+                        <img src="images/corrugated-jar-box.jpg">
+                        <h3>Corrugated Jar<br>  Packaging Boxes</h3>
+                    </div>
+                    <div>
+                        <img src="images/sticker-laser-cutting-dies.jpg">
+                        <h3>Sticker Laser <br> Cutting Dies</h3>
+                    </div>
+                    <div>
+                        <img src="images/self-closing-box.jpg">
+                    <h3>Self Lock Craft<br>  Packaging Boxes</h3>
+                    </div>
+                    <div>
+                        <img src="images/black-shipping-box.jpg">
+                    <h3> Black Shipping<br>  Boxes</h3>
+                    </div>
+                    <div>
+                        <img src="images/black-mailer-box.jpg">
+                    <h3>Black Mail <br> Boxes</h3>
+                    </div>
+                    <div>
+                        <img src="images/kraft-paper-ply-box.jpg">
+                    <h3>Kraft Paper Ply Plain<br>  Corrugated Boxes</h3>
+                    </div>
+                    <div>
+                        <img src="images/fresh-fruit-corrugate-packaging-carton-box.jpg">
+                    <h3>Fresh Fruit <br>  Corrugated Boxes</h3>
+                    </div>
+                    <div>
+                        <img src="images/custom-and-printed-packaging-boxes.jpg">
+                    <h3>Custom Boxes And <br>Printed Packaging Boxes  </h3>
+                    </div>
+                    <div>
+                        <img src="images/stainless-steel-mould.jpg">
+                    <h3>Stainless Steel <br>Thermoforming Mould  </h3>
+                    </div>
+                    <div>
+                        <img src="images/watt-high-power-system.jpg">
+                    <h3>Watt High Power<br> Cutting System</h3>
+                    </div>
+                    <div>
+                        <img src="images/die-cut-form.jpg">
+                    <h3>Die<br> Cut Form</h3>
+                    </div>
+                    <div>
+                        <img src="images/graphic-dies.jpg">
+                    <h3>Laser Steel Rule <br>Graphics Dies</h3>
+                    </div>
+                    <div>
+                        <img src="images/steel-cutting-dies.jpg">
+                    <h3>Die <br>Cut Form</h3>
+                    </div>
+                    <div>
+                        <img src="images/stripping-tool.jpg">
+                    <h3>Stripping Steel<br> Rule  Dies</h3>
+                    </div>
+                    <div>
+                        <img src="images/steel-rule-dies-03.jpg">
+                    <h3>Steel Rule Dies<br>  For Packaging</h3>
+                    </div>
+                </div>
+            </div>
+     </section>
+    </section>
+    <!--footer-->
+    <section class="rooter-section">
+        <div class="rooter-container" >
+            <h1> <a href=""> Contact Us</a></h1>
+            <div class="footer-body">
+                <div class="footer-body-logo">
+                    <div class="footer-logo">
+                        <div class="footer-logo-icon">
+                            <i class="fa-solid fa-boxes-stacked"></i>
+                        </div>
+                        <div class="footer-logo-text">
+                            <i class="fa-solid fa-j "></i>
+                            <div>
+                                <h2 style="color:#d0efff">TECH</h1>
+                                    <hr>
+                                    <h2 style="color:#d0efff">PACK</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <h2>Packaging Solutions.</h2>
+                    <div class="follow-us">
+                        <h3>Follow us : </h3>
+                        <a href="" target="_blank"> <i class="fa-brands fa-youtube"></i></a>
+                        <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                </div>
+                <div class="footer-info">
+                    <div>
+                        <i class="fa-sharp fa-solid fa-ranking-star"></i>
+                        <p>High Quality Standard.</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-truck-fast"></i>
+                        <p>Timely Delivery.</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-pen-to-square"></i>
+                        <p>Customized Packaging.</p>
+                    </div>
+                    <div>
+                        <i class="fa-sharp fa-solid fa-sack-dollar"></i>
+                        <p>Competitive Price Structure.</p>
+                    </div>
+
+                </div>
+
+                <div class="footer-links">
+                    <div class="map">
+                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                        <h4>Old Madras Road, Cheemasandra,<br> Bengaluru-560049, Karnataka, India.</h4>
+                    </div>
+                    <div class="email">
+                        <i class="fa-regular fa-envelope"></i>
+                        <h4>jtechpack2000@gmail.com</h4>
+                    </div>
+                    <div class="phone-number">
+                        <i class="fa-solid fa-phone"></i>
+                        <h4>+91-9886693632</h4>
+                    </div>
+                    <div class="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <h4>+91-9886693632</h4>
+                    </div>
+                </div>
+            </div>
+            <p class="footer-Copyright">Copyright <i class="fa-sharp fa-regular fa-copyright"></i> JTechPack. All rights
+                Reserved.</p>
+
+        </div>
+    </section>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+<script src="script.js">
+
+</script>
+
+</html>
